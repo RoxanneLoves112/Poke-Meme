@@ -27,7 +27,6 @@ class MapViewController: UIViewController, MKMapViewDelegate {
     droppedPin.coordinate = CLLocationCoordinate2D(latitude: location.latitude, longitude: location.longitude)
     droppedPin.title = "You Are Here"
     droppedPin.subtitle = "Look it's you!"
-//    mapView(mapView, viewFor: droppedPin)
     mapView.addAnnotation(droppedPin)
   }
   
