@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		340F86A00860DF6BC1A72EEA /* Pods_FBlogin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 248744B4DEED65FC25D6867B /* Pods_FBlogin.framework */; };
+		C8420D2D23666DC4001FFC91 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8420D2C23666DC4001FFC91 /* MapViewController.swift */; };
+		C8420D2F23666DF0001FFC91 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8420D2E23666DF0001FFC91 /* Location.swift */; };
 		C89A9AF8235D135B0047DBB1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C89A9AF7235D135B0047DBB1 /* AppDelegate.swift */; };
 		C89A9AFA235D135B0047DBB1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C89A9AF9235D135B0047DBB1 /* SceneDelegate.swift */; };
 		C89A9AFC235D135B0047DBB1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C89A9AFB235D135B0047DBB1 /* ViewController.swift */; };
@@ -19,6 +21,8 @@
 /* Begin PBXFileReference section */
 		248744B4DEED65FC25D6867B /* Pods_FBlogin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FBlogin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C823CEE25D09E2334FDFB0A6 /* Pods-FBlogin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FBlogin.release.xcconfig"; path = "Target Support Files/Pods-FBlogin/Pods-FBlogin.release.xcconfig"; sourceTree = "<group>"; };
+		C8420D2C23666DC4001FFC91 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		C8420D2E23666DF0001FFC91 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 		C89A9AF4235D135B0047DBB1 /* FBlogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FBlogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C89A9AF7235D135B0047DBB1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C89A9AF9235D135B0047DBB1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -66,6 +70,8 @@
 				C89A9AF7235D135B0047DBB1 /* AppDelegate.swift */,
 				C89A9AF9235D135B0047DBB1 /* SceneDelegate.swift */,
 				C89A9AFB235D135B0047DBB1 /* ViewController.swift */,
+				C8420D2C23666DC4001FFC91 /* MapViewController.swift */,
+				C8420D2E23666DF0001FFC91 /* Location.swift */,
 				C89A9AFD235D135B0047DBB1 /* Main.storyboard */,
 				C89A9B00235D135C0047DBB1 /* Assets.xcassets */,
 				C89A9B02235D135C0047DBB1 /* LaunchScreen.storyboard */,
@@ -208,7 +214,9 @@
 			files = (
 				C89A9AFC235D135B0047DBB1 /* ViewController.swift in Sources */,
 				C89A9AF8235D135B0047DBB1 /* AppDelegate.swift in Sources */,
+				C8420D2F23666DF0001FFC91 /* Location.swift in Sources */,
 				C89A9AFA235D135B0047DBB1 /* SceneDelegate.swift in Sources */,
+				C8420D2D23666DC4001FFC91 /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

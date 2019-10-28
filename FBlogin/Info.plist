@@ -11,10 +11,31 @@
 	  </array>
 	  </dict>
 	</array>
+  <key>NSLocationWhenInUseUsageDescription</key>
+  <string>This app would like to use your location.</string>
 	<key>FacebookAppID</key>
 	<string>2449913248663981</string>
+  <key>FacebookAdvertiserIDCollectionEnabled</key>
+  <false/>
+  <key>FacebookAutoLogAppEventsEnabled</key>
+  <false/>
 	<key>FacebookDisplayName</key>
 	<string>PokeMeme</string>
+  <key>NSAppTransportSecurity</key>
+  <dict>
+      <key>NSAllowsArbitraryLoads</key>
+      <true/>
+      <key>NSExceptionDomains</key>
+      <dict>
+          <key>example.com</key>
+          <dict>
+              <key>NSExceptionAllowsInsecureHTTPLoads</key>
+              <true/>
+              <key>NSIncludesSubdomains</key>
+              <true/>
+          </dict>
+      </dict>
+  </dict>
 	<key>LSApplicationQueriesSchemes</key>
 	<array>
 	  <string>fbapi</string>
